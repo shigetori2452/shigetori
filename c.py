@@ -9,6 +9,7 @@ soup=BeautifulSoup(res.text,"html.parser")
 data=[]
 
 
+
 spots=soup.find_all("div",attrs={"class":"u_areaListRankingBox"})
 for spot in spots:
     #ひとつの観光地情報を取得
